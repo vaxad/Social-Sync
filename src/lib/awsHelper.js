@@ -8,8 +8,8 @@ let credentials = {
   secretAccessKey,
 };
 const folder = "unicode/social-sync";
-const region = "ap-south-1";
-const bucket = "vaxadtest";
+const region = "eu-north-1";
+const bucket = "milanh";
 const client = new S3Client({
   region: region,
   credentials: credentials,
